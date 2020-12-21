@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Vollkorn&display=swap');
+body
+{
+  background            : #000000;
+  display               : grid;
+  grid-template-columns : [start] 200px [left] 1fr [center] 1fr [right] 200px [end];
+  margin                : 0px 0px 0px 0px;
+  min-height            : 100vh;
+  text-align            : center;
+}
+
+@font-face
+{
+  font-family : "Achromatic WM";
+  src         : url(achromatic-wm.otf);
+}
+
+h1
+{
+  font-family : "Achromatic WM", sans-serif;
+  font-size   : 3em;
+  font-weight : normal;
+}
+
+p
+{
+  max-width    : 600px;
+  margin-left  : auto;
+  margin-right : auto;
+}
+
+table
+{
+  margin-left  : auto;
+  margin-right : auto;
+}
+
+td
+{
+  text-align : start;
+}
+
+.dateRow
+{
+  min-width : 7em;
+  height    : 2em;
+}
+
+.left
+{
+  background  : #f9f9f9;
+  color       : #282828;
+  grid-column : start / center;
+  font-family : "Vollkorn", serif;
+  padding     : 0em 4em 0em 4em;
+}
+
+.leftMenu
+{
+  background  : #f9f9f9;
+  color       : #282828;
+  grid-column : start / left;
+}
+
+.leftContent
+{
+  background  : #f9f9f9;
+  color       : #282828;
+  grid-column : start / right;
+}
+
+.right
+{
+  background  : #1e1e1e;
+  color       : #e6e6e6;
+  font-family : "Fira Sans", sans-serif;
+  grid-column : center / end;
+  padding     : 0em 4em 0em 4em;
+}
+
+.rightMenu
+{
+  background  : #1e1e1e;
+  color       : #e6e6e6;
+  grid-column : right / end;
+}
+
+.rightContent
+{
+  background  : #1e1e1e;
+  color       : #e6e6e6;
+  grid-column : left / end;
+}
+
+
+/* Generated with Clay, http://fvisser.nl/clay */
