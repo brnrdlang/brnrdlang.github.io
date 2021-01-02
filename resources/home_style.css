@@ -4,7 +4,7 @@ body
 {
   background            : #000000;
   display               : grid;
-  grid-template-columns : [start] 200px [left] 1fr [center] 1fr [right] 200px [end];
+  grid-template-columns : [start] 0.75fr [left] 1fr [center] 1fr [right] 0.75fr [end];
   margin                : 0px 0px 0px 0px;
   min-height            : 100vh;
   text-align            : center;
@@ -16,18 +16,37 @@ body
   src         : url(achromatic-wm.otf);
 }
 
-h1
-{
-  font-family : "Achromatic WM", sans-serif;
-  font-size   : 3em;
-  font-weight : normal;
-}
-
 p
 {
   max-width    : 600px;
   margin-left  : auto;
   margin-right : auto;
+  text-align   : start;
+}
+
+ul
+{
+  max-width    : 600px;
+  margin-left  : auto;
+  margin-right : auto;
+  text-align   : start;
+}
+
+blockquote
+{
+  max-width    : 600px;
+  margin-left  : auto;
+  margin-right : auto;
+  text-align   : justify;
+  border-left  : solid 0.25em #cccccc;
+  padding-left : 1.25em;
+}
+
+h1
+{
+  font-family : "Achromatic WM", sans-serif;
+  font-size   : 3em;
+  font-weight : normal;
 }
 
 table
@@ -47,7 +66,7 @@ td
   height    : 2em;
 }
 
-.left
+.science
 {
   background  : #f9f9f9;
   color       : #282828;
@@ -56,21 +75,31 @@ td
   padding     : 0em 4em 0em 4em;
 }
 
-.leftMenu
+
+.science a:link
 {
-  background  : #f9f9f9;
-  color       : #282828;
-  grid-column : start / left;
+  color : #282828;
 }
 
-.leftContent
+
+.science a:visited
 {
-  background  : #f9f9f9;
-  color       : #282828;
-  grid-column : start / right;
+  color : #282828;
 }
 
-.right
+
+.science a:hover
+{
+  color : #282828;
+}
+
+
+.science a:active
+{
+  color : #282828;
+}
+
+.art
 {
   background  : #1e1e1e;
   color       : #e6e6e6;
@@ -79,18 +108,28 @@ td
   padding     : 0em 4em 0em 4em;
 }
 
-.rightMenu
+
+.art a:link
 {
-  background  : #1e1e1e;
-  color       : #e6e6e6;
-  grid-column : right / end;
+  color : #e6e6e6;
 }
 
-.rightContent
+
+.art a:visited
 {
-  background  : #1e1e1e;
-  color       : #e6e6e6;
-  grid-column : left / end;
+  color : #e6e6e6;
+}
+
+
+.art a:hover
+{
+  color : #e6e6e6;
+}
+
+
+.art a:active
+{
+  color : #e6e6e6;
 }
 
 
