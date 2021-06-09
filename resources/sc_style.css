@@ -106,64 +106,37 @@ blockquote
   color : #e6e6e6;
 }
 
-.artContent
+.scienceContent
 {
-  background  : #1e1e1e;
-  color       : #e6e6e6;
-  grid-column : left / end;
-  font-family : "Fira Sans", sans-serif;
+  background  : #f9f9f9;
+  color       : #282828;
+  grid-column : start / right;
+  font-family : "Vollkorn", serif;
   padding     : 0em 4em 0em 4em;
 }
 
 
-.artContent a:link
+.scienceContent a:link
 {
-  color : #e6e6e6;
+  color : #282828;
 }
 
 
-.artContent a:visited
+.scienceContent a:visited
 {
-  color : #e6e6e6;
+  color : #282828;
 }
 
 
-.artContent a:hover
+.scienceContent a:hover
 {
-  color : #e6e6e6;
+  color : #282828;
 }
 
 
-.artContent a:active
+.scienceContent a:active
 {
-  color : #e6e6e6;
-}
-
-
-.artContent img
-{
-  display      : block;
-  margin-left  : auto;
-  margin-right : auto;
-}
-
-.galleryElement
-{
-  float  : left;
-  width  : 250px;
-  height : 200px;
-}
-
-
-.galleryElement img
-{
-  height : 165px;
-}
-
-
-.gallery iframe
-{
-  float : left;
+  color : #282828;
 }
 
 
