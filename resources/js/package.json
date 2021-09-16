@@ -1,0 +1,15 @@
+{
+  "name": "gestalt",
+  "collaborators": [
+    "Bernhard Lang <collurio229@gmx.de>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "gestalt_bg.wasm",
+    "gestalt.js",
+    "gestalt.d.ts"
+  ],
+  "module": "gestalt.js",
+  "types": "gestalt.d.ts",
+  "sideEffects": false
+}
