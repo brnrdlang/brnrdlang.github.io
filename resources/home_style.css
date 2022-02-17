@@ -24,6 +24,12 @@ p
   text-align   : start;
 }
 
+table
+{
+  margin-left  : auto;
+  margin-right : auto;
+}
+
 ul
 {
   max-width    : 600px;
@@ -47,12 +53,6 @@ h1
   font-family : "Achromatic WM", sans-serif;
   font-size   : 3em;
   font-weight : normal;
-}
-
-table
-{
-  margin-left  : auto;
-  margin-right : auto;
 }
 
 td
