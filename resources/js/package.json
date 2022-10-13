@@ -7,7 +7,6 @@
   "files": [
     "gestalt_bg.wasm",
     "gestalt.js",
-    "gestalt_bg.js",
     "gestalt.d.ts"
   ],
   "module": "gestalt.js",
